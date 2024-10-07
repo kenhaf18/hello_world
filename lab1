@@ -1,0 +1,31 @@
+name = "ken"
+statement = "hi my name is ken, this is my first print statement"
+
+print (statement)
+print ("hi my name is {}, this is my first print statement".format(name))
+print ("hi my name is {}".format(name),", this is my first print statement\n")
+
+
+n1 = 1
+n2 = n1 + 1
+n3 = n2 + 1
+print ("hi my name is {}, this is print statement #{}\n".format(name,n1))
+print ("    hi my name is {}, this is print statement #{}\n".format(name,n2))
+print ("        hi my name is {}, this is print statement #{}\n".format(name, n3))
+
+def multiply(hours, days):
+    return hours * days
+x = (multiply(30,24)) 
+print ("There are {} hours in september".format(x))
+
+def divide(num1, num2):
+    return num1 // num2
+y = (divide(101,4))
+print("{}".format(y))
+
+def mod(num1, num2):
+    return num1 % num2
+z = (mod(101,4))
+print("{}".format(z))
+
+print ("101/4 is 25 with a remainder of 1")
